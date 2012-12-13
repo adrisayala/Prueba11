@@ -2,6 +2,7 @@ clear all
 clc
 %Datos
 
+disp("Modificado desde el mas halla...");
 terms=50;
 time=[0:0.01:5];
 To=0.628;
@@ -12,7 +13,7 @@ pt2=-15*t^0;
 Tn=To/4;
 k=3600;
 dam=0.05;
-%Cálculos
+%Cï¿½lculos
 wo=2*pi/To;
 ao=(1/To)*int(pt1,0,To/2)+(1/To)*int(pt2,To/2,To);
 
