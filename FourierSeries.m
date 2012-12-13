@@ -1,8 +1,8 @@
 clear all
 clc
 %Datos
-
-disp("Modificado desde el mas halla...");
+%La siguient línea está mal
+disp('Modificado desde el mas halla...');
 terms=50;
 time=[0:0.01:5];
 To=0.628;
